@@ -1,0 +1,16 @@
+﻿  Source.cpp
+d:\projects\tv track\source.cpp(81): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+d:\projects\tv track\source.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\projects\tv track\source.cpp(175): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+d:\projects\tv track\source.cpp(208): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+d:\projects\tv track\source.cpp(271): warning C4129: '%': unrecognized character escape sequence
+d:\projects\tv track\source.cpp(319): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\tv track\source.cpp(322): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+d:\projects\tv track\source.cpp(382): warning C4101: 'e': unreferenced local variable
+  MatchKeypoints.cpp
+d:\projects\tv track\matchkeypoints.cpp(387): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ExtractFeatures.cpp
+  Generating Code...
+d:\projects\tv track\matchkeypoints.cpp(330): warning C4715: 'matchKeypoints': not all control paths return a value
+  opencv12test1.vcxproj -> D:\Projects\TV Track\x64\Debug\opencv12test1.exe
+  opencv12test1.vcxproj -> D:\Projects\TV Track\x64\Debug\opencv12test1.pdb (Full PDB)

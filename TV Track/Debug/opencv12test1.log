@@ -1,0 +1,27 @@
+﻿Build started 6/1/2017 12:45:31 PM.
+     1>Project "C:\Users\RaminduS\Desktop\opencv12test1\opencv12test1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\RaminduS\Desktop\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ExtractFeatures.cpp FeatureMatchingMain.cpp HistogramMatching.cpp MatchKeypoints.cpp Source.cpp
+         Source.cpp
+     1>c:\users\ramindus\desktop\opencv12test1\source.cpp(78): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>c:\users\ramindus\desktop\opencv12test1\source.cpp(124): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\ramindus\desktop\opencv12test1\source.cpp(149): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>c:\users\ramindus\desktop\opencv12test1\source.cpp(182): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>c:\users\ramindus\desktop\opencv12test1\source.cpp(239): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::string'
+         MatchKeypoints.cpp
+         HistogramMatching.cpp
+         FeatureMatchingMain.cpp
+         ExtractFeatures.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\RaminduS\Desktop\opencv12test1\Debug\opencv12test1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\RaminduS\Desktop\Debug opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\RaminduS\Desktop\opencv12test1\Debug\opencv12test1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\RaminduS\Desktop\opencv12test1\Debug\opencv12test1.lib" /MACHINE:X86 Debug\ExtractFeatures.obj
+         Debug\FeatureMatchingMain.obj
+         Debug\HistogramMatching.obj
+         Debug\MatchKeypoints.obj
+         Debug\Source.obj
+         opencv12test1.vcxproj -> C:\Users\RaminduS\Desktop\opencv12test1\Debug\opencv12test1.exe
+     1>Done Building Project "C:\Users\RaminduS\Desktop\opencv12test1\opencv12test1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.33
